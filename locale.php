@@ -16,6 +16,12 @@
           <option value="ar" <?php if($_SESSION['locale'] == 'ar') echo "selected='selected'"; ?> >???????</option>
         </select>
     </form>
+    
+    <style>
+        body{
+            background:red;
+        }
+    </style>
                 
 
 </body>
