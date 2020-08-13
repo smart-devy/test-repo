@@ -8,6 +8,11 @@
 </head>
 
 <body>
+
+    <div class="sosa">
+        deiaal
+    </div>
+
     
     
     <script>
@@ -24,6 +29,7 @@ $('.marquee').marquee({
   duplicated: true
 });
 </script>
+
     <form action="" method="post" id="langForm">
         <select tabindex="4" name="lang"  class="filter form-control caret_background2" id="langSelect">
           <option value="" ><?=__("Language")?></option>
@@ -35,16 +41,21 @@ $('.marquee').marquee({
     <style>
         body{
             background:red;
+            font-size:15px;
         }
     </style>
                 
     <script>
         alert("ymaaaha");
+
+        console.log("dadad");
+
         
           $("#langSelect").change(function(){
               $("#langForm").submit();
           });
                 
+
     </script>
 </body>
 </html>
